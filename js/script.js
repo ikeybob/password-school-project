@@ -7,10 +7,10 @@ function redirect(){
     window.location.href = "html/checker.html"
   }
   if (form_choice.value == "generate"){
-    window.location.href = "https://www.google.com/"
+    window.location.href = "html/generator.html"
   }
   if (form_choice.value == "quit"){
-    window.location.href = "https://youtube.com/"
+    //decide on function of quit
   }
   //error handling
   if (form_choice == null){
