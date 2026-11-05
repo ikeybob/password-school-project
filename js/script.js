@@ -12,6 +12,6 @@ function redirect(){
     window.location.href = "https://youtube.com/"
   }
   if (choice == null){
-    alert("SELECT SOMETHING")
+    alert("SELECT HING")
   }
 }
