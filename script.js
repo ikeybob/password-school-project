@@ -6,5 +6,7 @@ function redirect(){
   if (choice == "check"){
     window.location.href = "https://www.google.com/"
   }
-
+  if (choice == null){
+    alert("SELECT SOMETHING")
+  }
 }
