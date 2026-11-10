@@ -17,7 +17,6 @@ function redirect(){
     alert("You must select an option.")
   }
 }
-
 function back(){
   //function to take user back to index
   window.location.href = "index.html"
