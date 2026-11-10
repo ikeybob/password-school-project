@@ -9,12 +9,15 @@
     </head>
 
     <body>
-        <form id = "password_enter" method = "post">
+       
             <fieldset>
                 <legend>Enter your password:</legend>
-                <input type = "text" name = "password_strength" placeholder = "e.g. 1234567890" required/>
+                <form id = "password_enter" method = "post">
+                    <input type = "text" name = "password_strength" placeholder = "e.g. 1234567890" required/>
+                </form>
+                <button class = "back" type = "button" onclick = "back()">Back</button>
             </fieldset>
-        </form>
+        
         <script src = "js/script.js"></script>
     </body>
 </html>
