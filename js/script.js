@@ -18,6 +18,11 @@ function redirect(){
   }
 }
 
+function back(){
+  //function to take user back to index
+  window.location.href = "index.html"
+}
+
 function passwordValid(p) {
   //creating function to check validity of password
     
