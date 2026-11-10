@@ -19,7 +19,7 @@ function redirect(){
 }
 function back(){
   //function to take user back to index
-  window.location.href = "index.html"
+  window.location.href = "../index.html"
 }
 
 function passwordValid(p) {
