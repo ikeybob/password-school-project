@@ -13,9 +13,13 @@
             <fieldset>
                 <legend>Enter your password:</legend>
                 <form id = "password_enter" method = "post">
-                    <input type = "text" name = "password_strength" placeholder = "e.g. 1234567890" required/>
+                    <input id = "passwordStrengthCheck" type = "text" name = "password_strength" placeholder = "e.g. 1234567890" required/>
                 </form>
+                <br>
+                <button class = "submit" type = "button" onclick = "passwordValid(document.getElementById('passwordStrengthCheck').value),passwordStrength(document.getElementById('passwordStrengthCheck').value)">Submit</button><br><br>
+                
                 <button class = "back" type = "button" onclick = "back()">Back</button>
+
             </fieldset>
         
         <script src = "../js/script.js"></script>
