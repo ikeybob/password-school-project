@@ -24,7 +24,7 @@ function back(){
 
 function passwordValid(p) {
   //creating function to check validity of password
-    
+ 
   let all = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!$%^&*()-_=+"
     let check = false
     let allArray = []  
@@ -46,7 +46,8 @@ function passwordValid(p) {
           }
       }
       if(check == false) {
-        console.log("invalid")
+        alert("Invalid. You must only use authorized characters")
+        return
       }
       check = false
       //this resets the check for each character
@@ -55,7 +56,14 @@ function passwordValid(p) {
   else{
     //this triggers if length is invalid
     check = false
-    console.log("invalid")
+    alert("Invalid. Your password must be between 8 and 24 characters")
   }
 }
+
+function passwordStrength(p) {
+  let points = 0
+  let pa = []
+  for(i=0;1<p.length;i++){
+    pa.push(p[i])
+}}
   
