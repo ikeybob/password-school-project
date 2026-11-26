@@ -63,7 +63,13 @@ function passwordValid(p) {
 function passwordStrength(p) {
   let points = 0
   let pa = []
+  let allUpper = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+  let allUpArray = []
   for(i=0;1<p.length;i++){
     pa.push(p[i])
-}}
+  }
+  for (i=0;i<allUpper.length;i++) {
+        allUpArray.push(all[i])
+      }
+}
   
